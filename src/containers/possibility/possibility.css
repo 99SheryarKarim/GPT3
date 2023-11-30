@@ -1,0 +1,133 @@
+.parent-main{
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  
+    height: 90vh;
+    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+}
+
+.possibility-main{
+    width: 90%;
+
+    height: 90vh;
+    display: flex;
+  
+}
+.possibility-prt1{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.possibility-prt2{
+    width: 50%;
+    height: 90vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+.possibility-prt1 img{
+    width: 80%;
+    height: 70vh;
+}
+
+#p1{
+    color: #71E5FF;
+
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+}
+#p2{
+    color: var(--color-subtext);
+    font-family: Manrope;
+font-size: 34px;
+font-style: normal;
+font-weight: 800;
+line-height: 45px;
+}
+#p3{
+    color: #81AFDD;
+
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+#p4{
+    color: #FF8A71;
+
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+}
+#p1, #p2, #p3, #p4 {
+    margin-left: 22px;
+}
+
+
+
+@media screen and (max-width:1044px){
+    .possibility-main{
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .possibility-prt1{
+        width: 100%;
+    }
+    .possibility-prt1 img{
+        width: 500px;
+    }
+    .possibility-prt2{
+        width: 73%;
+    display: flex;
+    gap: 15px;
+    margin-top: 41px;
+    margin-right: 182px;
+    justify-content: center;
+    align-items: center;
+  
+}
+#p2{
+    font-size: 20px;
+    line-height: 24px;
+}
+#p1, #p2, #p3, #p4 {
+    margin-left: 89px;
+}
+#p2{
+    font-size: 20px;
+    line-height: 24px;
+}#p3{
+    
+    line-height: 24px;
+}
+#p3 {
+    line-height: 20px;
+    font-size: 13px;
+}
+    }
+    @media screen and (max-width:975px){
+        .parent-main {
+            width: 100%;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            height: 122vh;
+            background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+        }
+    }
